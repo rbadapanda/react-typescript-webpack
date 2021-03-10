@@ -5,6 +5,8 @@ export interface HelloWorldProps {
 }
 export const App = (props: HelloWorldProps) => (
   <h1>
-    Hi {props.userName} from React! Welcome to {props.lang}!
+    Hi Top-level-await-result --&gt; "{props.userName}" from React! Welcome to {props.lang}!
+
+    <div style={{top:200,position:'absolute'}}>Open developer tools console to see the sequence of operations</div>
   </h1>
 );

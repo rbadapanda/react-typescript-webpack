@@ -5,6 +5,7 @@ module.exports = {
   entry: "./src/components/index.tsx",
   target: "web",
   mode: "development",
+  experiments:{topLevelAwait:true},
   output: {
     path: path.resolve(__dirname, "build"),
     filename: "bundle.js",
